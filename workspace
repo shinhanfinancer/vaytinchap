@@ -1,0 +1,31 @@
+@workspace /explain
+Act as an Expert Frontend Developer specializing in Mobile-First UI/UX.
+
+**Context:** Please review all existing files in this repository (@workspace) to understand the current project structure, CSS classes, and naming conventions. I need to implement a complete Loan Registration Flow using **Vanilla HTML and CSS** (no frameworks).
+
+**Task:** Create (or update) the code for an 8-step Loan Application Wizard.
+
+**Design Requirements:**
+1.  **Style:** Replicate the "FE Credit" branding style exactly.
+    * Colors: Primary Red (#E31F26), White, and Green for success.
+    * Layout: Clean, professional, and strictly **Mobile-First**.
+    * Visuals: Each step must have a high-quality Banner Image at the top.
+2.  **Sync:** Ensure the UI is synchronized and consistent across all 8 steps.
+
+**Strict Flow Instructions (DO NOT optimize or merge steps):**
+
+* **Step 1 (Registration):** Input form for Phone Number and Full Name.
+* **Step 2 (Info Supplement):** Form for personal details (Address, Job, Income, Reference info).
+* **Step 3 (Identity & Face):** UI for uploading ID Card (Front/Back) and a frame for Face/Selfie verification.
+* **Step 4 (Pending):** A "Waiting for Approval" screen with a processing animation.
+* **Step 5 (Success & Review):** Notification: "Approved Successfully". Display a summary of the user's data for verification.
+* **Step 6 (Contract):** Display a Contract Image. **Crucial:** Overlay the Customer's Name dynamically on top of the contract image.
+* **Step 7 (Disbursement Conditions):** A dedicated page showing the "Disbursement Condition" image/banner.
+* **Step 8 (Instructions):** Guide the customer to prepare the sufficient balance required by the disbursement conditions (text + CTA button).
+
+**Constraints:**
+* Use **pure HTML/CSS** only.
+* **Fix any potential UI bugs** (overflow issues, padding errors) tailored for mobile screens.
+* Do not change the logic of the 8 steps provided above.
+
+**Output:** Generate the complete HTML structure and the corresponding CSS. If the code is too long, break it down step-by-step.
